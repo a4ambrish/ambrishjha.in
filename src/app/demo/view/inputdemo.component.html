@@ -1,0 +1,79 @@
+<div class="grid p-fluid">
+    <div class="col-12 md:col-12">
+        <div class="card">
+            <h5>Question 1.</h5>
+            <div class="grid formgrid">
+                <div class="col-12 mb-2 lg:col-2 mb-lg-0">
+                    <span class="p-float-label">
+                        What is Angular libraries
+                    </span>
+                </div>
+                <div class="col-12 mb-2 lg:col-12 mb-lg-0">
+                    <span class="p-float-label">
+                        Many applications need to solve the same general problems, such as presenting a unified user interface, presenting data, and allowing data entry.
+We can create general solutions for particular domains that can be adapted for re-use in different applications. 
+Such a solution can be built as Angular libraries and these libraries can be published and shared as npm packages.
+An Angular library is an Angular project that differs from an application in that it cannot run on its own.
+A library must be imported and used in an application.
+
+                    </span>
+                </div>
+              
+            </div>
+
+</div>
+
+<div class="card">
+    <h5>Question 2.</h5>
+    <div class="grid formgrid">
+        <div class="col-12 mb-2 lg:col-2 mb-lg-0">
+            <span class="p-float-label">
+                What is Lifecycle hooks
+            </span>
+        </div>
+        <div class="col-12 mb-2 lg:col-12 mb-lg-0">
+            <span class="p-float-label">
+                A component instance has a lifecycle that starts when Angular instantiates the component class and renders the component view along with its child views. 
+The lifecycle continues with change detection, as Angular checks to see when data-bound properties change, and updates both the view and the component instance as needed. 
+The lifecycle ends when Angular destroys the component instance and removes its rendered template from the DOM.
+ Directives have a similar lifecycle, as Angular creates, updates, and destroys instances in the course of execution.
+
+Our application can use lifecycle hook methods to tap into key events in the lifecycle of a component or directive to initialize new instances, initiate change detection when needed, respond to updates during change detection, and clean up before deletion of instances.
+
+            </span>
+        </div>
+
+</div>
+</div>
+<div class="card">
+    <h5>Question 3.</h5>
+    <div class="grid formgrid">
+        <div class="col-12 mb-2 lg:col-2 mb-lg-0">
+            <span class="p-float-label">
+                What is Component styles
+            </span>
+        </div>
+        <div class="col-12 mb-2 lg:col-12 mb-lg-0">
+            <span class="p-float-label">
+               
+Angular applications are styled with standard CSS. That means you can apply everything you know about CSS stylesheets, selectors, rules, and media queries directly to Angular applications.
+
+Additionally, Angular can bundle component styles with components, enabling a more modular design than regular stylesheets.
+You should consider the styles of a component to be private implementation details for that component. When consuming a common component, you should not override the component's styles any more than you should access the private members of a TypeScript class. While Angular's default style encapsulation prevents component styles from affecting other components, global styles affect all components on the page. This includes ::ng-deep, which promotes a component style to a global style.
+
+Loading component styles
+
+There are several ways to add styles to a component:
+
+    By setting styles or styleUrls metadata.
+    Inline in the template HTML.
+    With CSS imports.
+
+
+            </span>
+        </div>
+      
+    </div>
+
+</div>
+</div>
